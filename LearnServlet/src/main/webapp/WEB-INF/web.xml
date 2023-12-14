@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>dis</servlet-name>
+<servlet-class>org.demo.Demo</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>dis</servlet-name>
+<url-pattern>/xyz</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+   <welcome-file>index.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>
